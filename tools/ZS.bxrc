@@ -1,0 +1,11 @@
+# You may now use double quotes around pathnames, in case
+# your pathname includes spaces.
+
+megs: 32
+
+romimage: file="C:\Program Files\Bochs-2.5.1\BIOS-bochs-latest"
+vgaromimage: file="C:\Program Files\Bochs-2.5.1\VGABIOS-lgpl-latest"
+
+floppya: 1_44=a.img, status=inserted
+boot: floppy
+log: bochsout.txt
